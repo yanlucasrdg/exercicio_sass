@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="./build/styles.css">
+    <!-- OBS= CONFIGURAÇÃO DO SASS:
+        1 - Abra o terminal (f1) execute o "npm init" e responda todo o questionário que ira configurar o "package.json" com as dependências de desenvolvimento
+        2 - Execute o comando "npm i --save-dev sass" para instalar o SASS no escopo do projeto, ela ira criar a pasta "node_modules e o "package-lock.json" que ira gerenciar as dependências
+        3 - Crie um arquivo ".gitignore". nele adicione a pasta "node_modules"
+        4 - Crie um arquivo "main.scss"
+        5 - No arquivo "package.json", na sessão de scripts, adicione "sass": "sass"
+        6 - No terminal execute o comando "npm run sass main.scss main.css"
+        7 - No arquivo "package.json", na sessão de scripts, altere "sass": "sass" para "sass source/main.scss build/main.css --watch"-->
+    <title>EBAC ELETRO</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="branding">
+                <img src="./imagens/ebac-logo-CC73A39D07-seeklogo.com.jpg" />
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="index.html#">Início</a>
+                    </li>
+                    <li>
+                        <a href="index.html#">Produtos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="imagem-topo">
+        <img src="./imagens/bannerloja.jpg" alt="banner chamada">
+    </div>
+    <section>
+        <div class="container">
+            <h2>Produtos</h2>
+            <ul class="products">
+                <li class="product-item">
+                    <img src="./imagens/GeForce RTX 3060 TWIN X2, 12GB.jpg" />
+                    <h4>GeForce RTX 3060 TWIN X2, 12GB</h4>
+                    <p>
+                        Placa de Vídeo INNO3D GeForce RTX 3060 TWIN X2, 12GB, GDDR6, DLSS, Ray Tracing, N30602-12D6-119032AH
+                    </p>
+                    <a href="https://www.terabyteshop.com.br/produto/29656/monitor-gamer-ninja-tenseigan-24-pol-165hz-1ms-full-hd-hdmidp-preto-mgn-006-24b" class="product-button" target="_blank">
+                        R$ 1.699,90 à vista
+                    </a>
+                </li>
+                <li class="product-item">
+                    <img src="./imagens/Radeon RX 7600 Gaming OC, 8GB.jpg" />
+                    <h4>Radeon RX 7600 Gaming OC, 8GB</h4>
+                    <p>
+                        Placa De Vídeo Gigabyte AMD Radeon RX 7600 Gaming OC, 8GB, GDDR6, FSR, Ray Tracing, GV-R76GAMING OC-8GD
+                    </p>
+                    <a href="https://www.terabyteshop.com.br/produto/29667/monitor-gamer-ninja-tenseigan-27-pol-quad-hd-ips-1ms-165hz-freesync-hdr-hdmidp-black-mgn-008-27b" class="product-button" target="_blank">
+                        R$ 1.699,90 à vista
+                    </a>
+                </li>
+                <li class="product-item">
+                    <img src="./imagens/Radeon RX 6600 Challenger D, 8GB.jpg" />
+                    <h4>Radeon RX 6600 Challenger D, 8GB</h4>
+                    <p>
+                        Placa de Vídeo ASRock Radeon RX 6600 Challenger D, 8GB, GDDR6, FSR, Ray Tracing, 90-GA2RZZ-00UANF
+                    </p>
+                    <a href="https://www.terabyteshop.com.br/produto/29672/monitor-gamer-ninja-tenseigan-27-pol-quad-hd-ips-1ms-240hz-freesync-hdr-hdmidp-black-mgn-009-27b" class="product-button" target="_blank">
+                        R$ 1.398,90 à vista
+                    </a>
+                </li>
+                <li class="product-item">
+                    <img src="./imagens/GeForce RTX 4060 VENTUS 2X WHITE OC, 8GB.jpg" />
+                    <h4>GeForce RTX 4060 VENTUS 2X WHITE OC, 8GB</h4>
+                    <p>
+                        Placa de Vídeo MSI NVIDIA GeForce RTX 4060 VENTUS 2X WHITE OC, 8GB, GDDR6, DLSS, Ray Tracing, 912-V516-030
+                    </p>
+                    <a href="https://www.terabyteshop.com.br/produto/29671/monitor-gamer-ninja-tenseigan-27-pol-quad-hd-ips-1ms-240hz-hdr-freesync-hdmidp-white-mgn-009-27w" class="product-button" target="_blank">
+                        R$ 1.899,90 à vista
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
